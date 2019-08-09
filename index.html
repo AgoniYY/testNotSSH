@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/lodash.js/4.17.14/lodash.min.js"></script>
+	</head>
+	<body>
+		
+	</body>
+	<script type="text/javascript">
+		var num = [1,2,3,4,5];
+		var maxNum = Math.max.apply(Math, num),
+		minNum = Math.min.call(Math,1,2,2,3,4)
+		console.log(maxNum);
+		console.log(minNum);
+		// function isArray(obj) {
+		// 	return Object.prototype.toString.call(obj) === '[num]';
+		// }
+		// console.log(isArray());
+		// var argument = new Array();
+		// argument [0] = 1;
+		// argument [1] = 8;
+		// var isAm = [].slice.apply(argument)
+		// console.log(isAm)
+	</script>
+</html>
